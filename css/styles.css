@@ -1,0 +1,337 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-page {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFE 100%);
+}
+
+.main-page-text-container {
+    border-radius: 40px;
+    background: var(--white, #FFF);
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.main-page-button {
+    background: var(--orange, #FF6B0A);
+    color: var(--white, #FFF);
+    border: none;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+
+.main-page-description {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--black, #1B1D1F);
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.main-page-title {
+    color: var(--black, #1B1D1F);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.main-page-text {
+    color: var(--black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.gus-facts-title {
+    color: #1B1D1F;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.gus-facts {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.tryzub {
+    margin-bottom: 24px;
+}
+
+.gus-facts-description {
+    width: 772px;
+    margin: auto;
+    margin-bottom: 24px;
+    color: var(--black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gus-fact-item-title {
+    color: var(--black, #1B1D1F);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 32px;
+    margin-top: 8px;
+}
+
+.gus-fact-item-description {
+    color: var(--black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 374px;
+}
+
+.form-section {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFE 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.form-container {
+    border-radius: 40px;
+    background: var(--white, #FFF);
+    padding-top: 32px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 573px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form-title {
+    color: var(--black, #1B1D1F);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.form-field-lable {
+    color: var(--black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.form-description {
+    color: var(--black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.form-field-input {
+    width: 450px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid var(--blue, #005BBB);
+    padding-left: 8px;
+    padding-right: 8px;
+    color: var(--black, #1B1D1F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.form-btn {
+    border-radius: 8px;
+    background: var(--orange, #FF6B0A);
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.gus-main-page {
+    width: 50%;
+}
+
+@media screen and (max-width: 1170px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
+    
+    .main-page-title {
+        font-size: 44px;
+    }
+
+    .main-page-text-container {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main-page-description {
+        margin-bottom: 0;
+    }
+
+    .gus-fact-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .gus-main-page {
+        align-self: flex-end;
+    }
+
+    .main-page-text-container {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    .gus-facts-description {
+        width: auto;
+    }
+
+    .main-page-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gus-main-page {
+        align-self: center;
+    }
+
+    .main-page-left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .main-page-text-container {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .form-container {
+        width: auto;
+        padding: 20px;
+    }
+
+    .form-field-input {
+        width: 350px;
+    }
+
+    .form-field {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    .form-field-input {
+        width: 280px;
+        height: 40px;
+    }
+
+    .gus-facts-title {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .gus-facts-description {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .gus-fact-item-description {
+        width: 100%;
+    }
+
+    .gus-fact-img {
+        width: 100%;
+    }
+
+    .gus-main-page {
+        width: 100%;
+    }
+
+}
